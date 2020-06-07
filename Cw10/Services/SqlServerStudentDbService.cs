@@ -52,6 +52,7 @@ namespace Cw10.Services
                     IdStudy = study,
                     StartDate = response.StartDate
                 };
+                db.Enrollment.Add(newEnrollment);
             }
             finally
             {
